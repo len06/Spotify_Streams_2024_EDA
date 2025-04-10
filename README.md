@@ -31,6 +31,6 @@ This project explores the most streamed songs on spotify in 2024 dataset contain
 
 ## 📊 Key Findings
 
-- Covers of songs takes the first 2 spots of the top 5 most streamed songs for Spotify 
+- Cover of songs takes the first 2 spots of the top 5 most streamed songs for Spotify 
 - The majority of the top 100 songs on Spotifty in 2024 are non-explicit songs (74%)
 - The distribution of views on platforms such as TikTok and YouTube are skewed heavily to the right due to extremely large outliers
