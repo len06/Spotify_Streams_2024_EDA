@@ -3,10 +3,6 @@ from dash_bootstrap_templates import load_figure_template
 from data_loader import *
 import dash_bootstrap_components as dbc
 import plotly.express as px
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
 
 #Defining the App_layout 
 app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
