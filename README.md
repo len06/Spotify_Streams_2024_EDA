@@ -1,6 +1,6 @@
 # 📊 Exploratory Data Analysis on Most Streamed Songs on Spotify in 2024 dataset
 
-This project explores the most streamed songs on Spotify in 2024, using a dataset containing metadata for over 4500 songs. The goal is to understand the structure of the data, identify patterns, and visualize relationships between various music platforms.
+This project explores the most-streamed songs on Spotify in 2024, using a dataset containing metadata for over 4500 songs. The goal is to understand the structure of the data, identify patterns, and visualize relationships between various music platforms.
 
 ---
 
@@ -31,7 +31,7 @@ This project explores the most streamed songs on Spotify in 2024, using a datase
 
 ## 📊 Key Findings
 
-- Cover of songs takes the first 2 spots of the top 5 most streamed songs for Spotify 
+- The cover of songs takes the first 2 spots of the top 5 most-streamed songs for Spotify 
 - The majority of the top 100 songs on Spotify in 2024 are non-explicit songs (74%)
 - The distribution of views on platforms such as TikTok and YouTube is skewed heavily to the right due to extremely large outliers
 
@@ -46,4 +46,4 @@ To launch the interactive dashboard and explore the visualizations:
       python dashboard.py
   3. Open your browser and go to:
       http://127.0.0.1:8050/
-  4. Make sure you have all the required libraries and frameworks installed
+  4. Ensure you have all the required libraries and frameworks installed: cd scripts --> pip install -r 'requirements.txt'
