@@ -40,10 +40,10 @@ This project explores the most-streamed songs on Spotify in 2024, using a datase
 ## 📈 Dashboard view
 
 To launch the interactive dashboard and explore the visualizations:
-  1. Navigate to the `scripts` directory:
+  1. Navigate to the `script` directory:
       cd scripts
   2. Run the dashboard script:
       python dashboard.py
   3. Open your browser and go to:
       http://127.0.0.1:8050/
-  4. Ensure you have all the required libraries and frameworks installed: cd scripts --> pip install -r 'requirements.txt'
+  4. Ensure you have all the required libraries and frameworks installed: cd script --> pip install -r 'requirements.txt'
