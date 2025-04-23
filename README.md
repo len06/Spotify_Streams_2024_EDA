@@ -1,6 +1,6 @@
 # 📊 Exploratory Data Analysis on Most Streamed Songs on Spotify in 2024 dataset
 
-This project explores the most streamed songs on spotify in 2024 dataset containing metadata of over 4500 songs. The goal is to understand the structure of the data, identify patterns and visualize relationships between various music platforms.
+This project explores the most-streamed songs on Spotify in 2024, using a dataset containing metadata for over 4500 songs. The goal is to understand the structure of the data, identify patterns, and visualize relationships between various music platforms.
 
 ---
 
@@ -16,21 +16,34 @@ This project explores the most streamed songs on spotify in 2024 dataset contain
 -`Track`: Name of the song
 -`Artist`: Artist of the song
 -`Spotify Streams, YouTube Views, TikTok Views`: Streams/Views amassed by the specific song
--`Explicit Track`: Gives information of wether a song is explicit or not
+-`Explicit Track`: Gives information on whether a song is explicit or not
 
 ---
 
 ## 🎯 Objectives
 
-- Handle missing values and data inconsistencies of columns 
+- Handle missing values and data inconsistencies in columns 
 - Analyze distributions of key numerical features
-- Explore pouplarity trends by artist
+- Explore popularity trends by artist
 - Visualize insights using Seaborn and Matplotlib
 
 ---
 
 ## 📊 Key Findings
 
-- Cover of songs takes the first 2 spots of the top 5 most streamed songs for Spotify 
-- The majority of the top 100 songs on Spotifty in 2024 are non-explicit songs (74%)
-- The distribution of views on platforms such as TikTok and YouTube are skewed heavily to the right due to extremely large outliers
+- The cover of songs takes the first 2 spots of the top 5 most-streamed songs for Spotify 
+- The majority of the top 100 songs on Spotify in 2024 are non-explicit songs (74%)
+- The distribution of views on platforms such as TikTok and YouTube is skewed heavily to the right due to extremely large outliers
+
+  ---
+
+## 📈 Dashboard view
+
+To launch the interactive dashboard and explore the visualizations:
+  1. Navigate to the `script` directory:
+      cd scripts
+  2. Run the dashboard script:
+      python dashboard.py
+  3. Open your browser and go to:
+      http://127.0.0.1:8050/
+  4. Ensure you have all the required libraries and frameworks installed: cd script --> pip install -r 'requirements.txt'
